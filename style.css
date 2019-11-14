@@ -264,6 +264,10 @@ hr{
   margin: auto;
 }
 
+.best-client-section h2 .name{
+  color: #fff;
+}
+
 .instructions-section hr{
   width: 80%;
   margin: auto;
