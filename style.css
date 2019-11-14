@@ -5,7 +5,6 @@ html{
 body{
   margin: 0;
   width: 100%;
-  scroll-behavior: smooth;
 }
 
 *{
@@ -706,6 +705,15 @@ form input, form select{
             order: 1;
     height: 70px;
     top: 0;
+  }
+
+  input[type=checkbox]{
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 0 50%;
+        -ms-transform-origin: 0 50%;
+            transform-origin: 0 50%;
   }
 }
 
